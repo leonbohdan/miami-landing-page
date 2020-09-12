@@ -53,44 +53,4 @@
       padding: 8px 3px;
     }
   }
-
-  // &__toggler {
-  //   display: none;
-
-  //   &-label {
-  //     display: block;
-  //     padding: 1px 5px 3px;
-
-  //     @media (min-width: 640px) {
-  //       display: none;
-  //     }
-  //   }
-
-  //   &-label::before {
-  //     content: "";
-  //     display: block;
-  //     width: 18px;
-  //     height: 2px;
-  //     background-color: white;
-  //     border-radius: 2px;
-
-  //     position: absolute;
-  //     top: 40px;
-  //     left: 500px;
-
-  //   }
-
-  //   &:checked + .nav__toggler-label::before {
-  //     content: "X";
-  //   }
-
-  //   &:checked ~ .nav__list {
-  //     display: flex;
-  //     justify-content: space-between;
-  //     flex-direction: column;
-
-  //     display: block;
-  //     align-items: center;
-  //   }
-  // }
 }

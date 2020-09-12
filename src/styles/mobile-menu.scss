@@ -67,9 +67,10 @@
 
   &__toggler {
     position: relative;
+    width: 20px;
+    height: 20px;
     opacity: 0;
-    top: -1px;
-    right: 14px;
+    top: 11px;
     cursor: pointer;
     z-index: 2;
   }
@@ -121,5 +122,6 @@
 
   &__toggler:checked ~ #{$blockName}__list {
     transform: translateX(0%);
+
   }
 }
